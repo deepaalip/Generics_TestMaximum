@@ -22,7 +22,13 @@ public class TestMaximum {
 	        float c = input.nextFloat();
 	        Float(a,b,c);
 	        
-	       
+	        System.out.println("enter string1:" );
+	        String d = input.next();
+	        System.out.println("enter string2:" );
+	        String g = input.next();
+	        System.out.println("enter string3:" );
+	        String f = input.next();
+	        String(d,g,f);
 	        
 		 }
         
@@ -52,6 +58,19 @@ public class TestMaximum {
 		  System.out.println("maximum number is " + max);
 		   return ;
 		}
+	 
+	 public static  void String (String d, String g,String f) {
+		    String max = f;
+		   if (d.compareTo(max) > 0 ) {
+		  	max = d;
+		   }
+		   if (g.compareTo(max) > 0) {
+		  	 max = g;
+		   }
+		  System.out.println("maximum number is " + max);
+		   return ;
+		}
+
 	 
 
 }
